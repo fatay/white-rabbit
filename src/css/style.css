@@ -1,0 +1,191 @@
+body,h1,h2,h3{
+    font-family: 'Exo', sans-serif !important;
+}
+@font-face {
+    font-family: 'Conv_Cookies';
+    src: url('../font/Cookies.ttf');
+    src: local('☺'), url('../font/Cookies.woff') format('woff'), url('../font/Cookies.ttf') format('truetype'), url('../font/Cookies.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {
+    min-height:32px !important;
+    background: #efefef !important;
+    border-bottom:1px solid #c9c9c9;
+}
+
+.logo{
+    width:32px;
+    height:32px;
+}
+
+.bg-light{
+    background:#f4f4f9 !important;
+}
+
+.nav-link{
+    font-size:16px;
+    color:black !important;
+}
+
+.nav-link:hover{
+    color:#e84545 !important;
+}
+
+.navbar-brand{
+    color:black !important;
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+}
+
+.rabbit_txt{
+    font-family: 'Conv_Cookies';
+    font-size:18px;
+    margin-left:8px;
+    margin-top:20px;
+}
+
+.circle{
+    width: 36px;
+    height:36px;
+    border-radius: 100%;
+    margin-bottom:-36px;
+    background: #e84545;
+}
+
+.btn-outline-success{
+    border:1px solid #e84545 !important;
+    color:#e84545 !important;
+    border-radius: 0% !important;
+}
+
+.btn-outline-success:hover{
+    border:1px solid #e84545 !important;
+    color:#fff !important;
+    background: #e84545;
+}
+
+input{
+    border-radius: 0% !important;
+}
+
+.btn-outline-info{
+    border:1px solid #4D9F2A !important;
+    color:#4D9F2A !important;
+    border-radius: 0%;
+}
+
+.btn-outline-info:hover{
+    border:1px solid #4D9F2A !important;
+    color:#fff !important;
+    background: #4D9F2A;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color:#000 !important;
+}
+
+#followme{
+    visibility: hidden;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.alert-dark{
+    background:#000 !important;
+    border-radius: 0% !important;
+    border:1px solid #000;
+    color:#fff;
+}
+
+.wrblack{
+    width: 384px;
+    height: 640px;
+    float: right;
+    background: url(../img/whiterabbit.jpg);
+    
+}
+
+.footer{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: black;
+    padding:60px;
+    padding-bottom: 60px;
+    color:#efefef;
+}
+.card{
+    margin-bottom: 10px;
+    max-width: 84%;
+    padding:8px;
+    padding-left:16px;
+    padding-right:16px;
+    min-height: 320px;
+}
+.card-title{
+    text-align: center;
+    margin-top:16px;
+}
+
+.card-text{
+    font-size:12px;
+    text-align: left;
+}
+
+.card-header{
+    background: #fdfdfd;
+    padding-top:0;
+    padding-bottom: 4px;
+    padding-left:12px;
+    font-size:10px;
+    display:inline-block;
+    text-align: left;
+}
+
+a{
+    color: #e84545;
+}
+
+a:hover{
+    color: #e84545;
+}
+
+.master{
+    width:16px;
+    margin-top: -6px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card{
+    margin-top:24px;
+}
+
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.nav-link{
+    margin-top:4px !important;
+}
+
+textarea {
+    resize: none;
+    border-radius: 0% !important;
+ }
+
+
+@media (max-width:630px){
+    .stn{
+        margin-top:12px;
+    }
+}
