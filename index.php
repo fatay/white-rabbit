@@ -107,10 +107,10 @@ else{
             <hr class="my-4">
             <p>&nbsp;</p>
             <div style="display:inline-block;">
-                <button class="btn btn-outline-success btn-lg stn" href="#">About</button> &nbsp; &nbsp;
-                <button class="btn btn-outline-success btn-lg stn" href="#">Privacy & Policy</button> &nbsp; &nbsp; 
-                <button class="btn btn-outline-success btn-lg stn" href="#">Contact</button> &nbsp; &nbsp;
-                <button class="btn btn-outline-success btn-lg stn" href="#">Applications</button> &nbsp; &nbsp;
+                <button class="btn btn-outline-primary btn-lg stn" style="border-radius:0%;" href="#">About</button> &nbsp; &nbsp;
+                <button class="btn btn-outline-primary btn-lg stn" style="border-radius:0%;" href="#">Privacy & Policy</button> &nbsp; &nbsp; 
+                <button class="btn btn-outline-primary btn-lg stn" style="border-radius:0%;" href="#">Contact</button> &nbsp; &nbsp;
+                <button class="btn btn-outline-primary btn-lg stn" style="border-radius:0%;" href="#">Applications</button> &nbsp; &nbsp;
             </div>
             <br /><br /><br />
             </div>';

@@ -177,7 +177,7 @@ body{
                 $logpass = mysqli_real_escape_string($conn,$_POST['logpass']);
                 $logpass = md5($logpass);
 
-                $login = "SELECT * FROM user WHERE username = '".$logname."'OR pass = '".$logpass."'"; 
+                $login = "SELECT * FROM user WHERE username = '".$logname."'AND pass = '".$logpass."'"; 
                 $reslog = mysqli_query($conn, $login);
                 if($reslog){
                   if (mysqli_num_rows($reslog) == 1) {
@@ -268,7 +268,7 @@ body{
 <?php mysqli_close($conn); ?>
 <script>
   $('.carousel').carousel({
-    interval: 4000
+    interval: 1000
   })
 </script>
 </body>
